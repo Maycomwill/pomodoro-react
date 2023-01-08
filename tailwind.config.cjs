@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{tsx,ts,html,js}"],
+  content: ['./src/**/*.{tsx,ts,html,js}'],
   theme: {
     extend: {
       colors: {
@@ -34,17 +34,17 @@ module.exports = {
           500: '#959595',
           400: '#bdbdbd',
           200: '#eeeeee',
-          100: '#f5f5f5',
+          100: '#f5f5f5'
         },
         maingreen: '#acf100',
         mainblue: '#0200A2'
       },
 
       backgroundImage: {
-        'pomodoroPattern': "url('/pomodoro.jpg')",
-        'phonePattern': "url('/phone.jpg')",
-      },
-    },
+        pomodoroPattern: "url('./src/assets/pomodoro.jpg')",
+        phonePattern: "url('./src/assets/phone.jpg')"
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
