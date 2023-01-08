@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Um timer simples baseado na técnica de pomodoro para estudos.
 
-- [Acesse o projeto finalizado, online](https://maycomwill.github.io/pomodoro-react)
+- [Acesse o projeto finalizado, online](https://pomodoro-react-maycomwill.vercel.app/)
 
 ## :pencil: Licença
 
