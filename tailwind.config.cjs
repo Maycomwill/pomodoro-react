@@ -41,8 +41,8 @@ module.exports = {
       },
 
       backgroundImage: {
-        pomodoroPattern: "url('./src/assets/pomodoro.jpg')",
-        phonePattern: "url('./src/assets/phone.jpg')"
+        pomodoroPattern: "url('./pomodoro.jpg')",
+        phonePattern: "url('./phone.jpg')"
       }
     }
   },
