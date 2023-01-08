@@ -5,7 +5,12 @@ export function Header() {
     <div className="w-screen items-center pt-3 pb-2 px-4 gap-4 h-full flex flex-1 border-b-2 border-gray-100">
       <div className="">
         <a href="">
-          <img src="logo.svg" alt="Author's logo" width={56} height={56} />
+          <img
+            src="./src/assets/logo.svg"
+            alt="Author's logo"
+            width={56}
+            height={56}
+          />
         </a>
       </div>
       <div className="w-full flex items-center justify-center sm:block sm:px-4">
