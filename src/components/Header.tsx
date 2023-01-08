@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../assets/logo.svg'
 
 export function Header() {
   return (
@@ -6,7 +7,7 @@ export function Header() {
       <div className="">
         <a href="">
           <img
-            src="./src/assets/logo.svg"
+            src={logo}
             alt="Author's logo"
             width={56}
             height={56}
